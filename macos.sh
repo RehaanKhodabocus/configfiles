@@ -153,6 +153,10 @@ defaults write NSGlobalDomain com.apple.mouse.linear -bool "false"
 defaults write NSGlobalDomain com.apple.mouse.scaling -float "3"
 defaults write com.apple.TimeMachine "DoNotOfferNewDisksForBackup" -bool "false"
 
+#making a directory for torrents and other files
+mkdir -p /Volumes/Data/Torrents
+mkdir -p /Volumes/Data/Other
+
 #Kills/Restarts apps to make changes effective.
 killall Finder
 killall Dock
