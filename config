@@ -1,0 +1,34 @@
+# Theme
+theme = rose-pine
+background-blur-radius = 20
+background-opacity = 0.90
+bold-is-bright = true
+custom-shader = ghostty-shaders/retro-terminal.glsl
+# Fonts
+font-family = JetBrainsMono Nerd Font
+font-feature = -calt
+font-feature = -clig
+font-feature = -liga
+font-size = 13
+
+# Window
+confirm-close-surface = false
+macos-titlebar-style = transparent
+quit-after-last-window-closed = true
+shell-integration-features = no-cursor, sudo
+window-padding-balance = true
+window-padding-x = 10
+window-padding-y = 10
+
+# Cursor
+cursor-color = white
+cursor-style-blink = false
+
+# Mouse
+mouse-hide-while-typing = true
+
+# Misc
+copy-on-select = true
+link-url = true
+macos-option-as-alt = true
+scrollback-limit = 10000
