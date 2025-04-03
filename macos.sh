@@ -15,8 +15,8 @@ brew update
 
 # Installing applications
 echo "Installing Applications"
-echo "Installing Arc Browser"
-brew install --cask arc
+echo "Installing Zen Browser"
+brew install --cask zen
 
 echo "Installing Whatsapp"
 brew install --cask whatsapp
@@ -27,34 +27,28 @@ brew install --cask obsidian
 echo "Installing Free Download Manager"
 brew install --cask free-download-manager
 
-echo "Installing Alacritty"
-brew install --cask alacritty
+echo "Installing Ghostty"
+brew install --cask ghostty
 
 echo "Installing Discord"
 brew install --cask discord
-
-echo "Installing Mac fan control"
-brew install --cask macs-fan-control
 
 echo "Installing Mounty"
 brew install --cask macfuse
 brew install gromgit/fuse/ntfs-3g-mac
 brew install --cask mounty
 
-echo "Installing Notion"
-brew install --cask notion
-
-echo "Installing VLC"
-brew install --cask vlc
-
-echo "Installing Logi Option+"
-brew install --cask logi-options-plus
+echo "Installing IINA"
+brew install --cask iina
 
 echo "Installing MesloLG Nerd Font"
 brew install --cask font-meslo-lg-nerd-font
 
 echo "Installing The Unarchiver"
 brew install --cask the-unarchiver
+
+echo "Installing OBS"
+brew install --cask obs
 
 echo "All applications have been installed."
 
